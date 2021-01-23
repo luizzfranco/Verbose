@@ -1,0 +1,161 @@
+body {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 8px auto;
+    font-family: Verdana, Sans-Serif;
+    height: 100vh;
+}
+
+a {
+    color: black;
+}
+
+nav {
+    font-size: 0.75rem;
+}
+
+a:hover {
+    background-color: black;
+    color: white;
+  }
+
+h1 {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    color: rgb(65, 62, 62);
+    font-family: 'Cutive Mono', monospace;
+
+}
+
+h2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 2rem;
+}
+
+.sobre p {
+    font-size: 1rem;
+    line-height: 1.6em;
+    color: #333;
+}
+
+
+.post p {
+    font-size: 1rem;
+    line-height: 1.6em;
+    color: #333;
+    margin: 1.25rem 0;
+}
+
+.post {
+    margin-top: 1.25rem;
+}
+
+.cabecalho p {
+    font-size: 0.85rem;
+    font-family: 'Roboto Mono', monospace;
+    font-style: oblique;
+    font-weight: 400;
+    margin: 0rem;
+    margin-bottom: 2rem;
+    color: rgb(94, 92, 92);
+}
+
+footer {
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: auto;
+    font-size: 0.35rem;
+}
+
+li {
+    font-size: 1rem
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .center2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+
+/* Box with posts */
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    text-align: left;
+    background-color:white;
+    font-size: 1.25rem;
+    cursor: pointer;
+    font-weight: 400;
+
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: '‣'; /* Unicode character for "plus" sign (+) */
+    font-size: 1.5rem;
+    color: black;
+    float: left;
+    margin-right: 10px;
+  }
+  
+ 
+
+  @media only screen and (min-width: 540px) {
+    /* For some mobile devices: */
+    body {
+        max-width: 500px;
+    }
+
+    nav {
+        font-size: 1rem;
+    }
+
+    footer {
+        font-size: 0.75rem;
+    }
+
+    .footernav {
+        font-size: 0.75rem;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    body {
+        max-width: 700px;
+    }
+  }
