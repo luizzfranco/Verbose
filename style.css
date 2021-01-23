@@ -124,12 +124,17 @@ button {
     transition: max-height 0.2s ease-out;
   }
 
-  .accordion:after {
-    content: '\2023'; /* Unicode character for "plus" sign (+) */
+ /* .accordion:after {
+    content: '\2023'; 
     font-size: 1.5rem;
     color: black;
     float: left;
     margin-right: 10px;
+  } */
+
+  .arrow {
+    font-size: 1.5rem;
+    color: black;
   }
   
  
