@@ -123,21 +123,7 @@ button {
     max-height: 0;
     transition: max-height 0.2s ease-out;
   }
-
- /* .accordion:after {
-    content: '\2023'; 
-    font-size: 1.5rem;
-    color: black;
-    float: left;
-    margin-right: 10px;
-  } */
-
-  .arrow {
-    font-size: 1.5rem;
-    color: black;
-  }
   
- 
 
   @media only screen and (min-width: 540px) {
     /* For some mobile devices: */
@@ -162,5 +148,9 @@ button {
     /* For desktop: */
     body {
         max-width: 700px;
+    }
+
+    footer {
+        font-size: 0.65rem;
     }
   }
